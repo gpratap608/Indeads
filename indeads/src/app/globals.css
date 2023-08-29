@@ -353,3 +353,12 @@ transition: 0.4s;
   position: fixed;
   z-index: 3;
 }
+
+@media (max-width:490px){
+  .extra-nav{
+    background-image: linear-gradient(to  left, white , white);
+  }
+  .extra-heading{
+    margin-top: 1rem;
+  }
+}
