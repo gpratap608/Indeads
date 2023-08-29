@@ -356,7 +356,8 @@ transition: 0.4s;
 
 @media (max-width:490px){
   .extra-nav{
-    background-image: linear-gradient(to  left, white , white);
+    background-color: white;
+    
   }
   .extra-heading{
     margin-top: 1rem;
