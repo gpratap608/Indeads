@@ -20,6 +20,7 @@ export default function RootLayout({ children }) {
         <div className='Container'>  
             <div className='item Navbar'> <Navbar/> </div>   
             <div className='item Column'> 
+            <div className='nav'></div>
                 <div className='flexContainer'>
                     <div className='flexContent' ><Link href='/business' className='pagelink'> Business </Link></div>
                     <div className='flexContent' ><Link href='/contact' className='pagelink'> Contact </Link></div>
