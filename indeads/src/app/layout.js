@@ -21,6 +21,7 @@ export default function RootLayout({ children }) {
             <div className='item Navbar'> <Navbar/> </div>   
             <div className='item Column'> 
             <div className='nav'></div>
+              <div className='extra-nav'> <div className='extra-sidenav'><h1 className='extra-heading'> InDiBUS </h1></div> </div>
                 <div className='flexContainer'>
                     <div className='flexContent' ><Link href='/business' className='pagelink'> Business </Link></div>
                     <div className='flexContent' ><Link href='/contact' className='pagelink'> Contact </Link></div>

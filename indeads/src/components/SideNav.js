@@ -42,7 +42,7 @@ function SideNav() {
                   
         
                   <NavDropdown
-                    title="Dropdown"
+                    title="More"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                   >
                     <NavDropdown.Item href='/business'>Business</NavDropdown.Item>
