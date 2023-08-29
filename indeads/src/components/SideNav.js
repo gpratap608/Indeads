@@ -24,7 +24,7 @@ function SideNav() {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  Offcanvas
+                  InDiBUS
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>

@@ -109,7 +109,7 @@ body{
 .Container{
   display: grid;
   grid-template-columns: 25% 41% 34%;
-  grid-template-rows: 3rem max-content fit-content  ;
+  grid-template-rows: 2rem max-content fit-content  ;
   /* row-gap: 2rem;
   column-gap: 1rem; */
 }
@@ -165,6 +165,7 @@ body{
 
 @media   (max-width:490px){
   .Column{
+    top: 0;
     grid-row: 0/span 0;
     background-image : linear-gradient(to  bottom, #db4dff , #d9d9d9 );
   }
