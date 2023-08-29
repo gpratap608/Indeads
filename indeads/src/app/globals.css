@@ -141,7 +141,7 @@ body{
 } */
 
 .Column{
-  background-image : linear-gradient(to  left, #d9d9d9 , #db4dff);
+  background-image : linear-gradient(to  left, white , #d9d9d9);
   grid-column: 1/span 1;
   grid-row: 2/span 3;
 }
@@ -150,7 +150,7 @@ body{
 
 .mainbody{
   grid-column: 2/span 2;
-  background-color: #d9d9d9; 
+  background-color: white; 
   justify-items: center;
   align-items: center;
 }
@@ -167,8 +167,7 @@ body{
   .Column{
     top: 0;
     grid-row: 0/span 0;
-    background-image : linear-gradient(to  bottom, #db4dff , #d9d9d9 );
-    opacity: -2;
+    opacity: 0;
   }
   .mainbody{
     grid-column: 1/span 1;
