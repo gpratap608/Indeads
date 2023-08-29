@@ -23,6 +23,7 @@ export default function Navbar (){
                 <li className='nav-link'>
                   <Link className='link' href="/">Disabled</Link>
                 </li>
+                
               </ul>
 
       </nav>
