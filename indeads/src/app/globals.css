@@ -357,6 +357,7 @@ transition: 0.4s;
 @media (max-width:490px){
   .extra-nav{
     background-color: white;
+    height:3rem;
     
   }
   .extra-heading{
