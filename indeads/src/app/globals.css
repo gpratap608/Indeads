@@ -357,10 +357,12 @@ transition: 0.4s;
 @media (max-width:490px){
   .extra-nav{
     background-color: white;
-    height:4.5rem;
     
   }
   .extra-heading{
     margin-top: 1rem;
+  }
+  .extra-sidenav{
+    height: 3.5rem;
   }
 }
