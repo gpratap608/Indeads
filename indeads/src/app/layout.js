@@ -1,12 +1,10 @@
 
 import './globals.css'
 import { Inter } from 'next/font/google'
-import { SocialIcon } from 'react-social-icons'
 import Link from 'next/link'
 import Footer from '@/components/footer'
 import Navbar from '@/components/Navbar'
-import DropDown from '@/components/dropdown'
-
+import SideNav from '@/components/SideNav'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -32,7 +30,6 @@ export default function RootLayout({ children }) {
                     <div className='flexContent' ><Link href='/Indilearn' className='pagelink'> InDiLearn </Link></div>
                     <div className='flexContent' ><Link href='/signup' className='pagelink'> Signup </Link></div>
                     <div className='flexContent' ><Link href='/login' className='pagelink'> Login </Link></div>
-                    <div className='flexContent' > <DropDown/> </div>
                 </div>
             </div>
             <div className='item mainbody'>
