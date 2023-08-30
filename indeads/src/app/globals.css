@@ -109,12 +109,12 @@ body{
 .Container{
   display: grid;
   grid-template-columns: 25% 41% 34%;
-  grid-template-rows: 3rem max-content fit-content  ;
+  grid-template-rows: 2rem max-content fit-content  ;
   /* row-gap: 2rem;
   column-gap: 1rem; */
 }
 
-@media  (max-width:490px){
+@media  (max-width:800px){
   .Container{
     grid-template-columns: 100%;
     grid-template-rows: 3rem 3rem max-content ;
@@ -128,9 +128,9 @@ body{
 }
 
 .Navbar{
-  grid-row: 1;
   grid-column: 1/span 3;
-  background-color: #000; 
+  background-color: white; 
+  height: fit-content;
 }
 
 /* .searchbar{
@@ -141,16 +141,17 @@ body{
 } */
 
 .Column{
-  background-image : linear-gradient(to  left, #d9d9d9 , #db4dff);
+  background-image : linear-gradient(to  left, white , #d9d9d9);
   grid-column: 1/span 1;
-  grid-row: 2/span 3;
+  grid-row: 2
+
 }
 
 
 
 .mainbody{
   grid-column: 2/span 2;
-  background-color: #d9d9d9; 
+  background-color: white; 
   justify-items: center;
   align-items: center;
 }
@@ -163,11 +164,11 @@ body{
 }
 
 
-@media   (max-width:490px){
+@media   (max-width:800px){
   .Column{
-    grid-row: 2/span 1;
-    background-image : linear-gradient(to  bottom, #db4dff , #d9d9d9 );
-    z-index: -2;
+    top: 0;
+    grid-row: 0/span 0;
+    opacity: 0;
   }
   .mainbody{
     grid-column: 1/span 1;
@@ -177,6 +178,8 @@ body{
     grid-column: 1/span 1;
     grid-row: 4/span 2;
   }
+  
+  
 }
 .flexfooter{
   display: flex;
@@ -196,7 +199,7 @@ body{
 
 
 
-@media(max-width:490px){
+@media(max-width:800px){
   .flexContainer{
     flex-direction: row;
   }
@@ -253,14 +256,14 @@ transition: 0.4s;
 
 .pagelink{
   text-decoration: none;
-  color: white;
+  color: #000;
 
 }
 .nav{
   position: fixed;
   z-index: 3;
   width: 100%;
-  background-color: #000; 
+  background-color: white; 
 }
 
 .mobile-nav{
@@ -312,4 +315,54 @@ transition: 0.4s;
 .arrow-head {
   font-weight: 900;
   font-size: large;
+}
+
+.drpdwn{
+  background-color: #1DA1F2;
+}
+
+.indiads-image{
+
+}
+
+.sidenav{
+  height:3rem;
+  top: 0;
+  width: 34%;
+  background-color: white;
+  position: fixed;
+  z-index: 3;
+  right: 0;
+}
+
+.extra-nav{
+  grid-column: 1/span 1;
+  background-image: linear-gradient(to  left, white , #d9d9d9); 
+  height: fit-content;
+}
+
+.extra-heading{
+      margin-left: 1rem;
+}
+
+.extra-sidenav{
+  height:3.5rem;
+  top: 0;
+  width: 75%;
+  background-image: linear-gradient(to  left, white , #d9d9d9); 
+  position: fixed;
+  z-index: 3;
+}
+
+@media (max-width:800px){
+  .extra-nav{
+    background-color: white;
+    
+  }
+  .extra-heading{
+    margin-top: 1rem;
+  }
+  .extra-sidenav{
+    height: 3.5rem;
+  }
 }

@@ -240,13 +240,13 @@
      
 }
 
-@media (max-width: 490px){
+@media (max-width: 800px){
   .flexContainer{
     flex-direction: column;
   }
 }
 
-@media (max-width: 490px){
+@media (max-width: 800px){
   .flexContainer{
     flex-direction: column;
   }
@@ -288,8 +288,8 @@
 }
 
 .Typewriter{
-  color: #000;
-  margin: 3rem;
+  color: #9336B4;
+  margin: 4rem;
 }
 
 
@@ -306,7 +306,7 @@
   justify-content: center;
   align-content: center;
 }
-@media only screen and (max-width:490px){
+@media only screen and (max-width:800px){
     .flexContainerimage{
         width: 100%;
     }
@@ -324,7 +324,7 @@
     border-radius: 10%;
     align-items: center;
 }
-@media only screen and (max-width:490px){
+@media only screen and (max-width:800px){
     .flexContentimage{
         width: 100%;
     }
@@ -350,12 +350,12 @@
   color: white;
 }
 
-@media(max-width:490px){
+@media(max-width:800px){
   .flexContainerimage{
     flex-direction: column;
   }
 }
-@media(max-width:490px){
+@media(max-width:800px){
   .flexContainerimage{
     flex-direction: column;
   }
@@ -394,7 +394,7 @@
   justify-content: center;
   align-items: center;
   height: fit-content;
-  width: 28rem;
+  width: 26rem;
   margin-top: 4rem;
 
 }
@@ -415,7 +415,7 @@
   justify-content: center;
   align-items: center;
   height: fit-content;
-  width: 28rem;
+  width: 26rem;
 }
 .indiadsServicesContent p{
   text-align: center;
@@ -456,6 +456,7 @@
 .signupHead{
   margin-bottom: 30px;
 }
+<<<<<<< HEAD
 
   
 
@@ -470,3 +471,5 @@
 }
 
 
+=======
+>>>>>>> 2310fd6e86e29418240d8ccc71b9fe5f28022241

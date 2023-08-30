@@ -1,11 +1,10 @@
 
 import './globals.css'
 import { Inter } from 'next/font/google'
-import { SocialIcon } from 'react-social-icons'
 import Link from 'next/link'
 import Footer from '@/components/footer'
 import Navbar from '@/components/Navbar'
-
+import SideNav from '@/components/SideNav'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,8 +18,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <div className='Container'>  
-            <div className='item Navbar'> <Navbar/> </div>   
+            <div className='item Navbar'>     
+               <div className='extra-nav'> <div className='extra-sidenav'><h1 className='extra-heading'> InDiBUS </h1></div> </div>
+               <Navbar/>
+            </div>
             <div className='item Column'> 
+            <div className='nav'></div>
                 <div className='flexContainer'>
                     <div className='flexContent' ><Link href='/business' className='pagelink'> Business </Link></div>
                     <div className='flexContent' ><Link href='/contact' className='pagelink'> Contact </Link></div>
@@ -31,7 +34,6 @@ export default function RootLayout({ children }) {
                     <div className='flexContent' ><Link href='/Indilearn' className='pagelink'> InDiLearn </Link></div>
                     <div className='flexContent' ><Link href='/signup' className='pagelink'> Signup </Link></div>
                     <div className='flexContent' ><Link href='/login' className='pagelink'> Login </Link></div>
-
                 </div>
             </div>
             <div className='item mainbody'>
