@@ -4,7 +4,7 @@ export default function login(){
     return(
         <main className={styles.main}>
         <div class="login-form"/>
-            <h1>Login</h1>
+            <centre><h1>Login form</h1></centre>
             <form action="#" method="post"/>
                 <p>Username</p>
                 <input type="text" name="user" placeholder="Username"></input>

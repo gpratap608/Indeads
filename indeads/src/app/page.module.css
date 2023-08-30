@@ -495,6 +495,7 @@
   border-radius: 5px;
 }
 .login-form button {
+  background-color: rgb(104, 59, 104);
   font-size: 18px;
   font-weight: bold;
   margin: 20px 0;
