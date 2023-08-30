@@ -3,11 +3,8 @@ import styles from "../page.module.css"
 export default function Indilearns() {
     return(
         <main className={styles.main}>
-             <h1 style="background-color:white;font-family:Display font;"><center>InDiLearn</center></h1>
-            
-            <body bgcolor="#F8eaff"></body>
-            
-    <p style="font-family:Helvetica;">
+           <center><h1 className={styles.learn}> InDiLearn  </h1></center> 
+
                <ul>
                <li>InDiLearn is an education-based startup that is part of INDIBUS</li>
                <li> We focus on developing the technical skills of young technocrats. </li>
@@ -15,13 +12,13 @@ export default function Indilearns() {
                </ul>
               
                
-               <h3 style="font-family:Display fonts;"><strong>Mission</strong></h3>
+               <h3><strong>Mission</strong></h3>
                <i>
 
                <p>Our mission is to empower young technocrats to achieve their full potential in the technology industry.</p>
                <p>We believe that everyone has the ability to learn and grow, and we are here to help them reach their goals.</p>
                </i>
-              <h3 style="font-family:Display fonts;"><strong>Our Goals are-:</strong></h3>
+              <h3 ><strong>Our Goals are-:</strong></h3>
                
              <ul>
                <i>
@@ -48,7 +45,8 @@ export default function Indilearns() {
 </p>
 
                 <p>Contact us today to schedule a consultation.</p>
-                 </p>
+                 
+
         </main>
     )
 }
