@@ -458,67 +458,7 @@
 }
 
   
-h1.Typewriter
-{
-  position: relative;
-  left: 55px;
 
-top: 100px;
-
-
-}
-
-
-
-form.Typewriter
-{
-  position: absolute;
-  top: 42%;
-  left: 45%;
-  transform: translate(-50%, -50%);
-  width: 500px;
-  height: 500px;
-  border: 19px solid #ccc;
-  padding: 20px;
-  background-color: #f6f8ff;
-}
-
-
-input.Typewriter {
-  width: 50%;
-  height: 30px;
-  border: none;
-  outline: none;
-  padding: 10px;
-  font-size: 16px;
-
-  
-}
-input.Typewriter{
-  position: relative;
-  top: 60px;
-  width: 40%;
-  height: 50px;
-  left: 55px;
-  border: 30px;
-  outline: none;
-  padding: none;
-  font-size: 16px;
-
-  
-}
-
-button.Typewriter {
-  position: relative;
-  width: 40%;
-  left: 65px;
-  height: 40px;
-  background-color: #000;
-  color: #fbf8f8;
-  border: none;
-  outline: none;
-  cursor: pointer;
-}
 
 
 .learn 
