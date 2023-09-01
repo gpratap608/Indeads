@@ -508,5 +508,69 @@
 
 
 
+.contact{
+  font-family: Arial, sans-serif;
+  background-color: #ffffbb11;
+  margin: 50px;
+  padding: 50px;
+  display: ruby-base-container;
+  justify-content: center;
+  align-items: center;
+  min-height: none;
+  position:static;
+  text-align: left;
+  
+  
+}
+
+.contactform 
+{
+  background-color: #ffebe2;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  display: grid;
+  grid-gap: -1rem;
+  text-align: left;
+}
+
+.contact h2
+ {
+  text-align: center;
+  margin: 10px;
+}
+
+.contactform label
+ {
+  font-weight: bold;
+}
+
+.contactform input[type="text"],
+.contactform input[type="email"],
+.contactform input[type="subject"],
+.contactform textarea
+ {
+  
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contactform button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.contactform button:hover {
+  background-color: #0056b3;
+}
+
 
 
