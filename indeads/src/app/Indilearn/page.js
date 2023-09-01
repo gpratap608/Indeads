@@ -3,6 +3,7 @@ import styles from "../page.module.css"
 export default function Indilearns() {
     return(
         <main className={styles.main}>
+               
             <center><h1 className={styles.learn}> InDiLearn  </h1></center> 
 
 <ul>
@@ -44,8 +45,7 @@ export default function Indilearns() {
  <p> We offer a free consultation so that you can learn more about what we do and how we can help you. 
 </p>
 
- <p>Contact us today to schedule a consultation.</p>
-            
+    <p>Contact us today to schedule a consultation.</p>
         </main>
     )
 }
