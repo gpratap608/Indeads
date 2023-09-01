@@ -459,7 +459,7 @@
 }
 .signupHead{
   margin-bottom: 30px;
-}
+  
 
 .login{
   padding: 0;
@@ -571,6 +571,7 @@
 .contactform button:hover {
   background-color: #0056b3;
 }
+
 
 
 

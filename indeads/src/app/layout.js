@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <div className='Container'>  
             <div className='item Navbar'>     
-               <div className='extra-nav'> <div className='extra-sidenav'><h1 className='extra-heading'> InDiBUS </h1></div> </div>
+               <div className='extra-nav'> <div className='extra-sidenav'><Link href="/" className='exthe'><h1 className='extra-heading'> InDiBUS </h1></Link></div> </div>
                <Navbar/>
             </div>
             <div className='item Column'> 
