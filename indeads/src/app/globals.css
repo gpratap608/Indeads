@@ -343,6 +343,8 @@ transition: 0.4s;
 
 .extra-heading{
       margin-left: 1rem;
+      text-decoration: none;
+      color: #000;
 }
 
 .extra-sidenav{
@@ -365,4 +367,8 @@ transition: 0.4s;
   .extra-sidenav{
     height: 3.5rem;
   }
+}
+
+.exthe{
+  text-decoration: none;
 }
