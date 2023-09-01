@@ -39,6 +39,7 @@ export default function signup(){
                 setError("This User Exists")
                 const form = e.target
                 form.reset()
+                return;
             }
 
             const res = await fetch('api/signup',{
@@ -55,7 +56,7 @@ export default function signup(){
             if( res.ok){
                 const form = e.target
                 form.reset()
-                router.push("/")
+                router.push("/") 
             }else{
                 console.log("Sign Up failed")
             } 
