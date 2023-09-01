@@ -8,8 +8,13 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import React,{useState} from 'react';
+
 
 function SideNav() {
+  const [user , setUser] = useState("SignIN")
+
+
   return (
     <>
       {[false].map((expand) => (
@@ -53,8 +58,9 @@ function SideNav() {
                       {/* Another action */}
                     </NavDropdown.Item>
                     <NavDropdown.Divider />
+                    
                     <NavDropdown.Item href='/signup'>
-                      Sign UP 
+                      {user}
                     </NavDropdown.Item>
                   </NavDropdown>
                 </Nav>

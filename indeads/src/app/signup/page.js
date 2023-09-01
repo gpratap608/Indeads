@@ -4,7 +4,8 @@ import React,{useState} from "react"
 import { useRouter } from "next/navigation"
 import Link from "next/link"
 
-export default function signup(){
+
+const signup=()=>{
     const [name,setName] = useState("")
     const [email,setEmail] = useState("")
     const [password,setPassword]  = useState("")
@@ -57,6 +58,8 @@ export default function signup(){
                 const form = e.target
                 form.reset()
                 router.push("/") 
+                
+
             }else{
                 console.log("Sign Up failed")
             } 
@@ -86,3 +89,5 @@ export default function signup(){
         </main>
     )
 }
+
+export default signup
