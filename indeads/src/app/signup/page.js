@@ -82,7 +82,7 @@ const signup=()=>{
                 <p className={styles.signupPageError}>
                     {error}
                 </p>
-          )}<p> Already have a account <Link href="/login"> LOGIN </Link> </p>
+          )}<p> Already have an account <Link href="/login"> LOGIN </Link> </p>
             </form>
             
 

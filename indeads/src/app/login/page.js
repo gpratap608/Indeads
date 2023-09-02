@@ -1,18 +1,18 @@
 import styles from"../page.module.css"
+import Link from "next/link"
 
 export default function login(){
     return(
-        <main className={styles.main}>
-            <div class="login-form"/>
-            <centre><h1>Login form</h1></centre>
-            <form action="#" method="post"/>
-                <p>Username</p>
-                <input type="text" name="user" placeholder="Username"></input>
-                    <p>Password</p>
-                    <input type="password" name="password" placeholder="Password"></input>
-                        <button type="Submit">Login</button>
-                         <form/>
-                <div/>
+        <main className={styles.signup}>
+             <form className={styles.signupForm}>
+            <h1 className={styles.signupHead}> LogIN </h1>
+        
+            <input  className={styles.signupPageInput} type="email"  placeholder="Email" required></input>
+            <input  className={styles.signupPageInput} type="password"  placeholder="Password"required></input>
+        
+            <button className={styles.signupButton} type="submit" >LogIN</button>
+            <p> Create an account <Link href="/signup"> SignUP </Link> </p>
+            </form>
         </main>
     )
 }
