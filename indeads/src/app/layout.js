@@ -36,6 +36,8 @@ export default function RootLayout({ children }) {
                     <div className='flexContent' ><Link href='/Indilearn' className='pagelink'> InDiLearn </Link></div>
                     <div className='flexContent' ><Link href='/signup' className='pagelink'> Signup </Link></div>
                     <div className='flexContent' ><Link href='/login' className='pagelink'> Login </Link></div>
+                    <div className='flexContent' ><Link href='/error' className='pagelink'> Error </Link></div>  {/* Temporary Addition */}
+
                 </div>
             </div>
             <div className='item mainbody'>
