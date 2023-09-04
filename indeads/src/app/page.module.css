@@ -512,6 +512,65 @@
   cursor: pointer;
   background-color: rgb(104, 59, 104);
 }
+.main{
+  height: 49rem;
+}
+.errorPage{
+  position: absolute;
+  top:10%;
+  left:25%;
+  right:17%;
+  bottom:20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  
+}
+.errorContent{
+  max-width: 60vw;
+  text-align: center;
+}
+.errorContent h1{
+  font-size: 18rem;
+  line-height: 1em;
+  
+}
+.errorContent h4{
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #000;
+  max-width: 60vw;
+  font-size: 2rem;
+  
+}
+.errorContent p{
+  font-size: 1.2rem;
+  color: #0d0d0d;
+}
+.errorContent .btns{
+  margin: 25px 0;
+  display: inline-flex;
+}
+.errorContent .btns a{
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  border: 2px solid  rgb(104, 59, 104);
+  color: rgb(104, 59, 104);
+  font-weight: 500;
+  padding:10px 25px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+.errorContent .btns a:hover{
+  color:#fff;
+  background: rgb(104, 59, 104);
+}
+
+
+
 
 
 
