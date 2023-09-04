@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Footer from '@/components/footer'
 import Navbar from '@/components/Navbar'
 import SideNav from '@/components/SideNav'
+import { AuthProvider } from './Providers'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -38,7 +39,7 @@ export default function RootLayout({ children }) {
                 </div>
             </div>
             <div className='item mainbody'>
-              {children}
+              <AuthProvider>{children}</AuthProvider>
             </div>
             <div className='item Footer'> <Footer/> </div>
         </div>
