@@ -1,6 +1,6 @@
 "use client";
 import styles from "../page.module.css"
-import Tabz from "@/components/tabs";
+
 
 export default function Business(){
     return(
