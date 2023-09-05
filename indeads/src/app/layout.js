@@ -4,7 +4,6 @@ import { Inter } from 'next/font/google'
 import Link from 'next/link'
 import Footer from '@/components/footer'
 import Navbar from '@/components/Navbar'
-import SideNav from '@/components/SideNav'
 import { AuthProvider } from './Providers'
 
 
