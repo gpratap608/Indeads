@@ -8,6 +8,7 @@ import SideNav from '@/components/SideNav'
 import { AuthProvider } from './Providers'
 
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -34,9 +35,9 @@ export default function RootLayout({ children }) {
                     <div className='flexContent' ><Link href='/aboutIndiabus' className='pagelink'> About Us </Link></div>
                     <div className='flexContent' ><Link href='/aboutIndiads' className='pagelink'> InDiAds </Link></div>
                     <div className='flexContent' ><Link href='/Indilearn' className='pagelink'> InDiLearn </Link></div>
-                    <div className='flexContent' ><Link href='/signup' className='pagelink'> Signup </Link></div>
-                    <div className='flexContent' ><Link href='/login' className='pagelink'> Login </Link></div>
-                    <div className='flexContent' ><Link href='/error' className='pagelink'> Error </Link></div>  {/* Temporary Addition */}
+                    
+                    
+          
 
                 </div>
             </div>

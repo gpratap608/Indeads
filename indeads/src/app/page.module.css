@@ -512,9 +512,7 @@
   cursor: pointer;
   background-color: rgb(104, 59, 104);
 }
-.main{
-  height: 49rem;
-}
+
 .errorPage{
   position: absolute;
   top:10%;
@@ -569,7 +567,9 @@
   background: rgb(104, 59, 104);
 }
 
-
+.learn {
+  margin-top: 4rem;
+}
 
 
 

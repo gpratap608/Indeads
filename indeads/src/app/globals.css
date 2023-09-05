@@ -161,6 +161,7 @@ body{
   grid-column: 1/span 3;
   grid-row: 3/span 1;
   background-color: #000;
+  bottom: 0;
 }
 
 

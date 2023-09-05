@@ -6,8 +6,10 @@ import styles from "../app/page.module.css"
 import { useSession } from "next-auth/react"
 
 export default function Userinfo(){
-
+    
     const {data:session} = useSession()
+
+    
 
     return(
     <main className={styles.signup}>
