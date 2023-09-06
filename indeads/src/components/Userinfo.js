@@ -9,11 +9,6 @@ import { useSession } from "next-auth/react"
 export default function Userinfo(){
 
     const {data:session} = useSession()
-
-         signOut()
-        
-    
-
     return(
     <main className={styles.signup}>
             <h1 className={styles.signupHead}> Dashboard </h1>
