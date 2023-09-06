@@ -1,4 +1,3 @@
-'use client'
 import RegisterForm from "@/components/RegisterForm"
 import  redirect from "next/navigation"
 import { getServerSession } from "next-auth"
@@ -11,7 +10,7 @@ const signup= async ()=>{
 
     return (
         <RegisterForm/>
-    )
+    ) 
 
     
 }
