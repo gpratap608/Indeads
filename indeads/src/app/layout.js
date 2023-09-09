@@ -4,7 +4,6 @@ import { Inter } from 'next/font/google'
 import Link from 'next/link'
 import Footer from '@/components/footer'
 import Navbar from '@/components/Navbar'
-import { AuthProvider } from './Providers'
 
 
 
@@ -41,7 +40,7 @@ export default function RootLayout({ children }) {
                 </div>
             </div>
             <div className='item mainbody'>
-              <AuthProvider>{children}</AuthProvider>
+              {children}
             </div>
             <div className='item Footer'> <Footer/> </div>
         </div>
