@@ -473,15 +473,49 @@
   background: transparent;
   color : red;
 }
-
+.contactContainer{
+  background: linear-gradient(to bottom,rgb(128, 36, 0),rgb(138, 90, 90),rgb(139, 107, 45));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  height: 100vh;
+  margin-top: -3.5rem;
+}
+.contactTop{
+  background-color: #000;
+  height: 13vh;
+  color: white;
+  width: 100%;
+  margin-bottom: 5rem;
+  text-align:center;
+  
+}
+.contactIndibus{
+  padding-top: 1rem;
+  margin-left: -17.5rem;
+}
+.contactP{
+  margin-left: -13.8rem;
+  margin-top: -1rem;
+}
+.contactBlue{
+  background: linear-gradient(to right,rgb(0, 255, 242),rgb(47, 156, 199),rgb(46, 59, 233));
+  height: 20%;
+  border: .1rem solid white;
+  margin-top: -1rem;
+}
 
 .contactBox{
   width: 50vh;
-  height: 60vh;
-
+  height: 55vh;
+  background-color: black;
+  border-radius: 5rem;
+  text-align: center;
 }
 .contact{
-  margin-top: 5rem;
+  margin-top: 2rem;
+  color: white;
 
 }
 .contactInput{
@@ -498,14 +532,14 @@
   height:15vh;
   padding-top: 1rem;
   width: 40vh;
-  border-radius: 1.2rem;
+  border-radius: 1.4rem;
   margin-top: 1.5rem;
 }
 .contactBtn{
   border-radius: 2.0rem ;
   color:white;
   margin-top: 1.2rem;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   border: none;
   cursor: pointer;
   background-color: rgb(104, 59, 104);
