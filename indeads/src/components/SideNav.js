@@ -57,7 +57,7 @@ function SideNav() {
                     </NavDropdown.Item>
                     <NavDropdown.Divider />
                     
-                    <NavDropdown.Item href='/signup'>
+                    <NavDropdown.Item href='/signinoptions'>
                       {user}
                     </NavDropdown.Item>
                   </NavDropdown>

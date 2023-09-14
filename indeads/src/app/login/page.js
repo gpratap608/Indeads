@@ -1,6 +1,11 @@
+
+// Import necessary modules and components
+
+
 import Loginpage from "@/components/loginpage";
 
-export default async function login() {
+
+export default  function  Login() { 
   
 
   return (

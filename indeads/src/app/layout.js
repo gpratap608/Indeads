@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 import Link from 'next/link'
 import Footer from '@/components/footer'
 import Navbar from '@/components/Navbar'
-
+import Authprovider from '@/components/AuthProvider/Authproviders'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -40,7 +40,7 @@ export default function RootLayout({ children }) {
                 </div>
             </div>
             <div className='item mainbody'>
-              {children}
+              <Authprovider>{children}</Authprovider>
             </div>
             <div className='item Footer'> <Footer/> </div>
         </div>

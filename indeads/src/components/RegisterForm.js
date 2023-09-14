@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import styles from "../app/page.module.css"
-import React, { useEffect, useState } from "react"
+import React, { useState } from "react"
 import axios from "axios"
 import Link from "next/link"
 import {  toast } from "react-hot-toast"
@@ -12,6 +12,8 @@ import {  toast } from "react-hot-toast"
 
 
 export default function RegisterForm() {
+  
+
   const [error,setError] = useState("")
   const [confirmPassword,setConfirmpassword] = useState("")
   const router = useRouter()

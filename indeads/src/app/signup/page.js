@@ -2,8 +2,11 @@
 import RegisterForm from "@/components/RegisterForm"
 
 
-const signup= async ()=>{
 
+const signup=  ()=>{
+
+
+    
     return (
         <RegisterForm/>
     ) 
