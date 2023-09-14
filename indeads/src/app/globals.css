@@ -206,6 +206,7 @@ body{
   }
   .Navbar{
     grid-row: 1/span 1;
+    height: 4rem;
   }
 }
 .flexContent{

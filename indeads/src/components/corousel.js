@@ -11,7 +11,29 @@ const Corousel = () => {
   };
 
   return (
+    
+
+
     <Carousel activeIndex={index} onSelect={handleSelect}>
+<h3 className={styles.Typewriter}>
+    <Typewriter
+     options={{
+       strings: ['InDiAds', 'Show', 'Earn', 'Grow', 'With...'],
+       autoStart: true,
+       loop: true,
+     }} /> 
+     <div className={styles.flexContainer}>
+        <div className={styles.flexContent}>
+          <p className={styles.para}> <Link className={styles.link} href='/business'>Business</Link></p>
+        </div>
+        <div className={styles.flexContent}>
+          <p className={styles.para}> <Link className={styles.link} href='/Users'> Happy Clients</Link> </p>
+        </div>
+        <div className={styles.flexContent}>
+          <p className={styles.para}>  <Link className={styles.link} href='Pendings'> Upcoming Projects </Link> </p>
+        </div>
+      </div>
+     </h3>
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -50,6 +72,7 @@ const Corousel = () => {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    
   );
 }
 

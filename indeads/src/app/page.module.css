@@ -307,7 +307,8 @@
 }
 @media only screen and (max-width:800px){
     .flexContainerimage{
-        width: 100%;
+        left: 0;
+        width: 23.44rem;
     }
 }
 
@@ -322,7 +323,7 @@
 
 @media only screen and (max-width:800px){
     .flexContentimage{
-        width: 100%;
+        width: auto;
     }
 }
 
@@ -571,8 +572,15 @@
   background-color: #ff8200;
   margin-top: 1rem;
   padding: 1rem;
+  padding-top: 3rem;
 }
-
+@media only screen and (max-width:800px){
+  .upper{
+    padding: 0rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
 .whorwe{
   background-color: #ffffff;
   height: fit-content;
@@ -593,15 +601,16 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   padding:1rem;
+  width: 100%;
 }
 .vmflexContent{
   display: flex;
   height: 18rem;
   width:22rem;
   background-color: #00cb51;
-  margin: 1rem;
+  margin: 0.3rem;
   align-items: center;
   justify-content: center;
   color: #ffffff;
@@ -632,11 +641,13 @@
   
 }
 @media only screen and (max-width:800px){
+  
   .vmflexContent{
-    height: 4rem;
-    width: 5rem ;
-    margin: 0.5rem;
-    font-size: large;
+    height: 5rem;
+    width: 8rem ;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    font-size: small;
   }
   .butta{
     width: 100%
@@ -644,4 +655,81 @@
   .p1{
     font-size: 0.4rem;
   }
+}
+
+.normalHeading{
+  font-family: the seasons ;
+  color: #ffffff;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  font-size: 2em;
+  font-weight: 20;
+  text-decoration: none;
+}
+@media only screen and (max-width:800px){
+  .fleximageContainer{
+  justify-content: center;
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-template-rows: max-content;
+  grid-gap:1rem;
+}
+}
+.fleximageContainer{
+  justify-content: center;
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-template-rows: max-content;
+  grid-gap:1rem;
+}
+.heightimage{
+  height: 20rem;
+}
+
+.generalbox{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0.5rem;
+  align-items: center;
+}
+.generalboxcontent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+  width: 80%;
+  background-color: #ff8200;
+  margin: 2rem;
+}
+
+@media only screen and (max-width:800px){
+  .generalboxcontent{
+    width: 95%;
+    height: 7rem;
+    margin: 0.5rem;
+  }
+}
+
+.testimonialsimage{
+  border-radius: 50%;
+}
+.blackHeading{
+  font-family: the seasons ;
+  color: #000;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  font-size: 2em;
+  font-weight: 20;
+  text-decoration: none;
+}
+.testimonials{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }

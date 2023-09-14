@@ -33,28 +33,64 @@ export default function Home() {
           </div>
         </div>      
         </div>
-          <h3 className={styles.Typewriter}>
-             <Typewriter
-              options={{
-                strings: ['InDiAds', 'Show', 'Earn', 'Grow', 'With...'],
-                autoStart: true,
-                loop: true,
-              }} /> 
-              
-          </h3>
+        
+        <h3 className={styles.normalHeading}> Our Exciting Service Offerings </h3>
 
+        <div className={styles.fleximageContainer}>
+          <div className={styles.fleximage}> 
+            <Image
+              src='/advertising.png'
+              height='100'
+              width='170'
+              alt='Image'
+            /> 
+          </div>
+          <div className={styles.fleximage}> 
+            <Image
+              src='/video.png'
+              height='100'
+              width='170'
+              alt='Image'
+            /> 
+          </div>
+          <div className={styles.fleximage}> 
+            <Image
+              src='/content.jpg'
+              height='100'
+              width='170'
+              alt='Image'
+            /> 
+          </div>
+          <div className={styles.fleximage}> 
+            <Image
+              src='/listing.png'
+              height='100'
+              width='170'
+              alt='Image'
+            /> 
+          </div>
+        </div>
+        <div className={styles.generalbox}>
+          <div className={styles.generalboxcontent}><Link href='aboutIndiads' className={styles.normalHeading}>InDiAds</Link></div>
+          <div className={styles.generalboxcontent}><Link href='Indilearn' className={styles.normalHeading}>InDiLearn</Link></div>
+          
+        </div>
 
-      <div className={styles.flexContainer}>
-        <div className={styles.flexContent}>
-          <p className={styles.para}> <Link className={styles.link} href='/business'>Business</Link></p>
+        <h3 className={styles.normalHeading}>What Our Clients Say</h3>
+        <div className={styles.whorwe}>
+                  <p>Add some text Here</p>
+              <div className={styles.testimonials}>
+                    <img
+                        src = '/imageicon.jpg'
+                        height='50'
+                        width='50'
+                        alt='Image'
+                        className={styles.testimonialsimage}
+                    />
+                    <h3 className={styles.blackHeading}>User</h3>
+
+              </div>
         </div>
-        <div className={styles.flexContent}>
-          <p className={styles.para}> <Link className={styles.link} href='/Users'> Happy Clients</Link> </p>
-        </div>
-        <div className={styles.flexContent}>
-          <p className={styles.para}>  <Link className={styles.link} href='Pendings'> Upcoming Projects </Link> </p>
-        </div>
-      </div>
           
     </main>
   )
