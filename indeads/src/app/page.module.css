@@ -308,7 +308,7 @@
 @media only screen and (max-width:800px){
     .flexContainerimage{
         left: 0;
-        width: 23.44rem;
+        width: 100%;
     }
 }
 
