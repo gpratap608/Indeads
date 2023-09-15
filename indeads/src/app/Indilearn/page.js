@@ -1,10 +1,12 @@
+'use client'
 import styles from "../page.module.css"
 
 
 export default function Indilearns() {
     return(
         <main className={styles.main}>
-        <div className={styles.center}> <div className={styles.flexconstent}><h1 className='in'>In</h1><h1 className='di'>Di</h1><h1 className='bus'>Learn</h1></div></div>
+        <div className={styles.orangeline}></div>
+         <div className={styles.flexconstent}><h1 className='in'>In</h1><h1 className='di'>Di</h1><h1 className='bus'>Learn</h1></div>
         
         <div className={styles.pagecontentbackground}>
 

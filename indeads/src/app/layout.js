@@ -21,6 +21,7 @@ export default function RootLayout({ children }) {
         <div className='Container'>  
             <div className='Navbar'>     
                <Link href="/" className='exthe'><div className='flexconstent'><h3 className='in'>In</h3><h3 className='di'>Di</h3><h3 className='bus'>BUS</h3></div></Link>
+             <div className='realnav'> <Navbar/></div>
             </div>
             <div className='item blank1'></div>
             

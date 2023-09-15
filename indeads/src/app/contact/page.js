@@ -1,16 +1,23 @@
+'use client'
 import styles from "../page.module.css"
 
 export default function Business(){
     return(
         <main className={styles.main}>
             <div className={styles.contactBox}>
-            <h1 className={styles.contact}> Contact </h1>
-            <form className={styles.contactForm}>
-                <input type="text" placeholder="your Name" className={styles.contactInput}></input>
-                <input type="text" placeholder="your Email"className={styles.contactInput}></input>
+            <div className={styles.orangeline}></div>    
+            <h2 className={styles.normalHeading}> Contact Us </h2>
+            <form action='mailto:indiads.2023@gmail.com' method="post" encType="text/plain"className={styles.contactForm}>
+        
+                <input type="text" placeholder="Name" className={styles.contactInput}></input>
+                
+                <input type="text" placeholder="Email"className={styles.contactInput}></input>
+    
                 <input type="text" placeholder="Subject"className={styles.contactInput}></input>
+            
                 <textarea type="text" placeholder="Your message"className={styles.contactText}></textarea>
-                <button type="button" className={styles.contactBtn}>Send message</button>
+                
+                <input type="submit" className={styles.contactBtn} value="Submit" />
             </form>
 
             </div>

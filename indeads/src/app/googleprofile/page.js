@@ -27,12 +27,16 @@ export default function googleprofile(){
     },[])
     
     return(
-        <main className={styles.signup}>
-            <h1 className={styles.signupHead}> Profile </h1>
+        <main className={styles.main}>
+            <div className={styles.signupsetup}>
+            <div className={styles.orangeline}></div>
+            <div className={styles.contactForm}>
+            <h1 className={styles.normalHeading}> Profile </h1>
             <p className={styles.signupPageInput}> {name} </p> 
             <p className={styles.signupPageInput}> {email} </p> 
             <button onClick={handleClick} className={styles.signupButton}> LogOUT </button>
-
+            </div>
+            </div>
     </main>
     )
 }

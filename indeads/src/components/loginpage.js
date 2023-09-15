@@ -39,7 +39,10 @@ export default function Loginpage(){
     }
 
     return(
-        <main className={styles.signup}>
+        <main className={styles.main}>
+            <div className={styles.signupsetup}>
+            <div className={styles.orangeline}></div> 
+            <div className={styles.signin}>                 
             <form onSubmit={handleSubmit} className={styles.signupForm}>
             <h1 className={styles.signupHead}> LogIN </h1>
         
@@ -59,6 +62,8 @@ export default function Loginpage(){
             }
             <p> Create an account <Link href="/signup"> SignUP </Link> </p>
             </form>
+        </div>
+        </div>
         </main>
     )
 }

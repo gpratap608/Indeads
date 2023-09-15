@@ -15,6 +15,7 @@ export default function Userinfo(){
 
     const router = useRouter()
     const [data,setData] = useState("")
+    const [email,setEmail] = useState("")
     async function logout() {
         try {
             await axios.get('/api/users/logout')
@@ -41,15 +42,19 @@ export default function Userinfo(){
         const res = await axios.get("/api/users/me")
         console.log(res.data)
         setData(res.data.data.userName)
+        setEmail(res.data.data.email)
     }
     return(
-    <main className={styles.signup}>
-            <h1 className={styles.signupHead}> Dashboard </h1>
-            <p className={styles.signupPageInput}> {data === 'nothing'? "Nothing": <Link href={`/profile/${data}`}>{data}</Link>} </p> 
-            <p className={styles.signupPageInput}>  </p> 
-            <button onClick={getUserDetails}  className={styles.signupButton}> Get Info </button>
+    <main className={styles.main}>
+        <div className={styles.signupsetup}>
+        <div className={styles.orangeline}></div>
+        <div className={styles.contactForm}>
+            <h1 className={styles.normalHeading}> Dashboard </h1>
+            <p className={styles.signupPageInput}> {data} </p> 
+            <p className={styles.signupPageInput}> {email}  </p> 
             <button onClick={logout} className={styles.signupButton}> LogOUT </button>
-
+        </div>
+        </div>
     </main>
     )
 }

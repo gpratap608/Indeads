@@ -52,7 +52,10 @@ export default function RegisterForm() {
   }
 
   return(
-      <main className={styles.signup}>
+      <main className={styles.main}>
+        <div className={styles.signupsetup}>
+        <div className={styles.orangeline}></div>
+        <div className={styles.signin}>  
           <form onSubmit={handleSubmit} className={styles.signupForm}>
           <h1 className={styles.signupHead}> SignUp </h1>
           <input
@@ -79,7 +82,9 @@ export default function RegisterForm() {
               </p>
         )}<p> Already have an account <Link href="/login"> LOGIN </Link> </p>
           </form>
-          
+        </div> 
+        
+        </div>  
 
       </main>
   )
