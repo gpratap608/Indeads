@@ -1,39 +1,35 @@
+'use client'
 import styles from "../page.module.css"
+import Image from "next/image"
+import Link from "next/link"
+import Corouselindi from "@/components/indicorousel"
+import { useRouter } from "next/navigation"
 
 export default function aboutIndiads() {
+    const router = useRouter()
     return (
         <main className={styles.main}>
-            <div className={styles.gridContainer}>
-                <div className={styles.indiadsContent}>
-                    <div className={styles.textflow}>
-                    <h2>InDiAds</h2>
-                    <p>
-                        InDiAds is a creative content producing and advertising company that is part of INDIBUS. We specialize in
-                        creating digital posters, interactive videos, and advertising them to target customer segments.<br></br>
+        <div className={styles.center}> <div className={styles.flexconstent}><h1 className='in'>In</h1><h1 className='di'>Di</h1><h1 className='bus'>Ads</h1></div></div>
+        
+        <div className={styles.pagecontentbackground}>
 
-                        Our team of experienced and creative professionals has a deep understanding of the digital marketing landscape.
-                        We use our knowledge and expertise to create content that is engaging, informative, and relevant
-                        to your target audience. We also work with influencers to create authentic and impactful marketing campaigns.
-                        And we use social media to reach your target audience with targeted and personalized messages.<br></br>
 
-                        We believe that every business has a unique story to tell. We help you tell your story in a way
-                        that will resonate with your target audience and achieve your marketing goals.
-                    </p>
-                    </div>
-                
-                <div className={styles.indiadsImage}> 
-                        <img src="example.png"></img>
-                </div>
-                </div>
+        <p>
+            <b><i>InDiAds</i></b> is a creative content producing and advertising company that is part of INDIBUS. We specialize in
+            creating digital posters, interactive videos, and advertising them to target customer segments.<br></br>
+        </p>
+        <p>
+            Our team of experienced and creative professionals has a deep understanding of the digital marketing landscape.
+            We use our knowledge and expertise to create content that is engaging, informative, and relevant
+            to your target audience. We also work with influencers to create authentic and impactful marketing campaigns.
+            And we use social media to reach your target audience with targeted and personalized messages.<br></br>
+        </p>
+        <p>
+            We believe that every business has a unique story to tell. We help you tell your story in a way
+            that will resonate with your target audience and achieve your marketing goals.
+        </p>
 
-                
-                <div className={styles.indiadsServicesContent}>
-                    <div className={styles.indiadsImage}>
-                        <img src="example.png"></img>
-                    </div>
-
-                    <div className={styles.textflow}>
-                        <h2>Our Services includes</h2>
+        <h2>Our Services includes</h2>
                         <p>
                         
                         * Content creation: We create high-quality content that is engaging and informative.<br></br>
@@ -49,13 +45,66 @@ export default function aboutIndiads() {
                         
 
                     </p>
-                   </div> 
-                </div>
+        </div>
 
+        <h3 className={styles.normalHeading}> Our Exciting Service Offerings </h3>
 
+        <div className={styles.fleximageContainer}>
+          <div className={styles.fleximage}> 
+            <Image
+              src='/advertising.png'
+              height='100'
+              width='170'
+              alt='Image'
+            /> 
+          </div>
+          <div className={styles.fleximage}> 
+            <Image
+              src='/video.png'
+              height='100'
+              width='170'
+              alt='Image'
+            /> 
+          </div>
+          <div className={styles.fleximage}> 
+            <Image
+              src='/content.jpg'
+              height='100'
+              width='170'
+              alt='Image'
+            /> 
+          </div>
+          <div className={styles.fleximage}> 
+            <Image
+              src='/listing.png'
+              height='100'
+              width='170'
+              alt='Image'
+            /> 
+          </div>
+        </div>
 
+        <h3 className={styles.normalHeading}> Our Projects </h3>
+        <div className={styles.flexContainerimage}>
+              <div className={styles.flexContentimage}>
+                    <div className={styles.Image}>
+                      <Corouselindi/>  
+                    </div>
+              </div>
+        </div>
+
+        <div className={styles.stickcontainer}>
+            <Image
+                src='/group.png'
+                height='300'
+                width='180'
+                alt='Image'
+            />
+            <div className={styles.openpara}>
+                <h4> Get personalized post advertisement </h4>
+                <button onClick={()=>router.push("/contact")} className={styles.roundbutton} > <b>Contact Us</b> </button>
             </div>
-
+        </div>
 
         </main>
     )
