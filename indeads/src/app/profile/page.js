@@ -11,7 +11,7 @@ import { useState,useEffect } from "react"
 
 
 
-export default function Userinfo(){
+export default async function  Userinfo(){
 
     const router = useRouter()
     const [data,setData] = useState("")
@@ -32,7 +32,7 @@ export default function Userinfo(){
         setData(res.data.data.userName)
         setEmail(res.data.data.email)
     }
-    getUserDetails()
+    await getUserDetails()
     return( 
     <main className={styles.main}>
         <div className={styles.signupsetup}>
