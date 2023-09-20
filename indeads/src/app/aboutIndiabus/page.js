@@ -6,7 +6,6 @@ export default function aboutIndibus(){
     return(
         <main className={styles.main}>
             <div className={styles.orangeline}></div>
-            <div className={styles.fullscreen}>
                 <h3 className={styles.normalHeading}> About Us </h3>
                 <div className={styles.fullscreencontainer}>
                     <div className={styles.fullscreencontent}>
@@ -17,7 +16,7 @@ export default function aboutIndibus(){
                         <h4><b> Mission </b> </h4>
                     </div>
                 </div>
-            </div>
+    
             <div>
                 <h3 className={styles.normalHeading}> Our Team </h3>
                 <div className={styles.teamcontainer}>

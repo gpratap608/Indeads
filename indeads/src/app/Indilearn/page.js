@@ -2,7 +2,7 @@
 import styles from "../page.module.css"
 
 
-export default function Indilearns() {
+export default function indilearns() {
     return(
         <main className={styles.main}>
         <div className={styles.orangeline}></div>

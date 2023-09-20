@@ -2,8 +2,11 @@
                 
 import { useState } from 'react';
 import {AiOutlineMenu,AiOutlineClose} from 'react-icons/ai'
+import '../app/globals.css'
+import styles from '../app/page.module.css'
 
-const Navbar = () => {
+
+export default function Navbar() {
   const [navbarVisible, setNavbarVisible] = useState(false);
 
 
@@ -33,4 +36,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+
