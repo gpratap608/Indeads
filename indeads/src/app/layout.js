@@ -19,13 +19,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <div className='Container'>  
-            <nav className='nav'>
-             <ul> 
-                <li><div className='flexconstent'><h2 className='in'>In</h2><h2 className='di'>Di</h2><h2 className='bus'>Bus</h2></div></li>
-                <li><Navbar/></li>
+            <div className='nav'>
+                <Link href="/" className='link'><h2 className='in'>In</h2><h2 className='di'>Di</h2><h2 className='bus'>Bus</h2></Link>
+                <div className='li'><Navbar/></div>
                 
-             </ul>
-            </nav>
+            
+            </div>
        
             
             <div className='item mainbody'>
