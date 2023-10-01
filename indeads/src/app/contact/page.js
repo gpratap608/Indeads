@@ -14,10 +14,12 @@ export default function Business(){
         emailjs.sendForm('service_apbecn9', 'template_lmyqvvc', form.current, 'CA2JRFh4xGvJDsv9T')
           .then((result) => {
               console.log(result.text);
+              alert(`Message Sent`)
+              router.push("/")
           }, (error) => {
               console.log(error.text);
+              alert(`Something Went Wrong try again`)
           });
-          router.push("/")
       };
 
     return(
