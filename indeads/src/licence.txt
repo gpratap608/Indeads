@@ -20,6 +20,7 @@ Manged Under : InDiBUS Tech team
 
 Managed from : 16/September/2023
 
-Domain : https://indibus.vercel.app
+Domain : https://www.indibus.net
 
 github-repo : https://github.com/gpratap608/Indeads
+

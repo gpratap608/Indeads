@@ -1,23 +1,41 @@
 'use client'
 import styles from "../page.module.css"
+import emailjs from "@emailjs/browser"
+import { redirect, useRouter } from "next/navigation";
+import React, { useRef } from 'react';
 
 export default function Business(){
+    const form = useRef()
+    const router = useRouter()
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_apbecn9', 'template_lmyqvvc', form.current, 'CA2JRFh4xGvJDsv9T')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+          router.push("/")
+      };
+
     return(
         <main className={styles.main}>
             <div className={styles.contactBox}>
             <div className={styles.orangeline}></div>    
             <h2 className={styles.normalHeading}> Contact Us </h2>
-            <form action='mailto:indiads.2023@gmail.com' method="post" encType="text/plain"className={styles.contactForm}>
+            <form ref={form} onSubmit={sendEmail} className={styles.contactForm}>
         
-                <input type="text" placeholder="Name" className={styles.contactInput}></input>
+                <input type="text" name="user_name" placeholder="Name" className={styles.contactInput}></input>
                 
-                <input type="text" placeholder="Email"className={styles.contactInput}></input>
+                <input type="text" name="user_email" placeholder="Email"className={styles.contactInput}></input>
     
-                <input type="text" placeholder="Subject"className={styles.contactInput}></input>
+                <input type="text"  name="subject" placeholder="Subject"className={styles.contactInput}></input>
             
-                <textarea type="text" placeholder="Your message"className={styles.contactText}></textarea>
+                <textarea type="text" name="message" placeholder="Your message"className={styles.contactText}></textarea>
                 
-                <input type="submit" className={styles.contactBtn} value="Submit" />
+                <input type="submit" className={styles.contactBtn} value="Send" />
             </form>
 
             </div>
