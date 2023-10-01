@@ -2,15 +2,16 @@
 import styles from "../page.module.css"
 import emailjs from "@emailjs/browser"
 import { redirect, useRouter } from "next/navigation";
-import React, { useRef } from 'react';
+import React, { useRef,useState } from 'react';
 
 export default function Business(){
     const form = useRef()
     const router = useRouter()
 
+
     const sendEmail = (e) => {
         e.preventDefault();
-    
+        
         emailjs.sendForm('service_apbecn9', 'template_lmyqvvc', form.current, 'CA2JRFh4xGvJDsv9T')
           .then((result) => {
               console.log(result.text);
@@ -29,9 +30,9 @@ export default function Business(){
             <h2 className={styles.normalHeading}> Contact Us </h2>
             <form ref={form} onSubmit={sendEmail} className={styles.contactForm}>
         
-                <input type="text" name="user_name" placeholder="Name" className={styles.contactInput}></input>
+                <input  type="text" name="user_name" placeholder="Name" className={styles.contactInput}></input>
                 
-                <input type="text" name="user_email" placeholder="Email"className={styles.contactInput}></input>
+                <input  type="text" name="user_email" placeholder="Email"className={styles.contactInput}></input>
     
                 <input type="text"  name="subject" placeholder="Subject"className={styles.contactInput}></input>
             
