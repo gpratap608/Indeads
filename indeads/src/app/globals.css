@@ -44,7 +44,7 @@ a {
 
 @media  (max-width:800px){
   .Container{
-    grid-template-columns: 100%;
+    grid-template-columns: 112%;
     grid-template-rows: 3rem 0.01rem max-content max-content;
   }
 }
@@ -67,6 +67,7 @@ a {
   background-color: #000; 
   justify-items: center;
   align-items: center;
+  width: 100%;
 }
 
 
@@ -231,7 +232,7 @@ transition: 0.4s;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-content: space-between;
+  align-content: center;
   grid-column: 2/span 1;
   grid-row: 1/span 1;
 }
