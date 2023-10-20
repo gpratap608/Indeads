@@ -533,6 +533,7 @@
   flex-direction: column;
 }
 .applyimagecontainer{
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -545,4 +546,9 @@
 .applyimage{
   height: 50%;
   width: 50%;
+}
+@media only screen and (max-width:800px){
+  .applyimagecontainer{
+    
+  }
 }
