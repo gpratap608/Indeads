@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from 'next/image';
+import  Link from 'next/link'
 
 const Corouselindi = () => {
   const [index, setIndex] = useState(0);
@@ -27,20 +28,22 @@ const Corouselindi = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
+        <Link href='/Apply'>
         <Image
           className="d-block w-100 image"
-          src={`/imageicon.jpg`}
+          src={`/Hiring.jpg`}
           alt="Second slide"
           height='300'
           width='150'
         />
+        </Link>
 
         <Carousel.Caption>
           <h3></h3>
           <p></p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Image
           className="d-block w-100"
           src={`/imageicon.jpg`}
@@ -55,7 +58,7 @@ const Corouselindi = () => {
             
           </p>
         </Carousel.Caption>
-      </Carousel.Item>
+      </Carousel.Item> */}
     </Carousel>
   );
 }

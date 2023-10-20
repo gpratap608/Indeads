@@ -33,7 +33,12 @@ export default function Home() {
           </div>
         </div>      
         </div>
-        
+        <div className={styles.applyimagecontainer}>
+        <Link href='/Apply'>
+          <img src='Hiring.jpg' className={styles.applyimage}></img>
+        </Link>
+        </div>
+
         <h3 className={styles.normalHeading}> Our Exciting Service Offerings </h3>
 
         <div className={styles.fleximageContainer}>
