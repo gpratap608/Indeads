@@ -34,7 +34,7 @@ export default function Business(){
                 
                 <input  type="text" name="user_email" placeholder="Email"className={styles.contactInput}></input>
     
-                <input type="text"  name="subject" placeholder="Applying as?"className={styles.contactInput}></input>
+                <input type="text"  name="subject" placeholder="Applying for?"className={styles.contactInput}></input>
             
                 <textarea type="text" name="message" placeholder="Your Description!"className={styles.contactText}></textarea>
                 
