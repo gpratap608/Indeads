@@ -92,7 +92,7 @@ export default function aboutIndibus(){
                             className={styles.testimonialsimage}
                         />
                         <h3><b> Suraj Singh </b></h3>
-                        <p> Creative Director </p>
+                        <p> Co-Founder & Creative Director </p>
                     </div>
                     <div className={styles.teamcontent}>
                         <Image
