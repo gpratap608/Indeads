@@ -29,6 +29,8 @@ export default function Navbar() {
           <li><a href="/aboutIndiads">InDiAds</a></li>
           <li><a href="/Indilearn">InDiLearn</a></li>
           <li><a href="/signinoptions">Your Account</a></li>
+          {/* <li><a href="/recentprojects">Our Work</a></li> */}
+
         </ul>
       </nav>
       </div>
