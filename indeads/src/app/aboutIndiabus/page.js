@@ -104,6 +104,16 @@ export default function aboutIndibus(){
                         <h3><b> Saubhagya </b></h3>
                         <p> CFO </p>
                     </div>
+                   <div className={styles.teamcontent}>
+                        <Image
+                            src='/Team/GPS.jpg'
+                            height='200'
+                            width='200'
+                            className={styles.testimonialsimage}
+                        />
+                        <h3><b> Ganesh Pratap Singh </b></h3>
+                        <p> CTO </p>
+                    </div>         
                     <div className={styles.teamcontent}>
                         <Image
                             src='/Team/Yuvraj.jpg'
@@ -114,16 +124,7 @@ export default function aboutIndibus(){
                         <h3><b> Yuvraj Singh </b></h3>
                         <p> Technical Head </p>
                     </div>
-                    <div className={styles.teamcontent}>
-                        <Image
-                            src='/Team/GPS.jpg'
-                            height='200'
-                            width='200'
-                            className={styles.testimonialsimage}
-                        />
-                        <h3><b> Ganesh Pratap Singh </b></h3>
-                        <p> CTO </p>
-                    </div>
+                    
                     <div className={styles.teamcontent}>
                         <Image
                             src='/Team/Deepak.jpg'
