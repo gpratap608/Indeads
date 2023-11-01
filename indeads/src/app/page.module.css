@@ -519,6 +519,7 @@
   height: fit-content;
   width: 80%;
   background-color: #00cb51;
+  justify-content:space-evenly;
   margin: 2rem;
 }
 .teamcontent{
