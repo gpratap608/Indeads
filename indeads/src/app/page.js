@@ -7,10 +7,11 @@ import Typewriter from 'typewriter-effect';
 import { useState } from 'react';
 import Corousel from '@/components/corousel';
 import Corouselindi from '@/components/indicorousel';
+import { useRouter } from "next/navigation"
 
 
 export default function Home() {
-  
+  const router = useRouter()
   return (
     <main className={styles.main}>
         <div className={styles.upper}>
@@ -21,17 +22,18 @@ export default function Home() {
                     </div>
               </div>
         </div>
-        <div className={styles.whorwe}>
-          <h2 className={styles.whorwehead}>who are we?</h2>
-          <div className={styles.vmflexContainer}>
-              <div className={styles.vmflexContent}><h3>Vision</h3></div>
-              <div className={styles.vmflexContent}><h3>Mission</h3></div>
-              <div className={styles.butta}>
-                <p className={styles.p1}> Take your business to the next level <button className={styles.button}>Read More</button></p>
-                
-              </div>
-          </div>
-        </div>      
+        <div className={styles.stickcontainer}>
+            <Image
+                src='/group.png'
+                height='300'
+                width='180'
+                alt='Image'
+            />
+            <div className={styles.openpara}>
+                <h4> Know more About US </h4>
+                <button onClick={()=>router.push("/aboutIndiabus")} className={styles.roundbutton} > <b>About Us</b> </button>
+            </div>
+        </div>
         </div>
 
         <h3 className={styles.normalHeading}> Our Exciting Service Offerings </h3>
