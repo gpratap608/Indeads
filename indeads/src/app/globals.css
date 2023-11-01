@@ -44,7 +44,7 @@ a {
 
 @media  (max-width:800px){
   .Container{
-    grid-template-columns: 112%;
+    grid-template-columns: 100%;
     grid-template-rows: 3rem 0.01rem max-content max-content;
   }
 }
