@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Footer from '@/components/footer'
 import Navbar from '@/components/Navbar'
 import Authprovider from '@/components/AuthProvider/Authproviders'
+import NextTopLoader from 'nextjs-toploader'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -28,6 +29,8 @@ export default function RootLayout({ children }) {
        
             
             <div className='item mainbody'>
+              <NextTopLoader />
+
               <Authprovider>{children}</Authprovider>
             </div>
           
