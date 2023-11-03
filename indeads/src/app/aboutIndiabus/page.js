@@ -8,7 +8,7 @@ export default function aboutIndibus(){
             <div className={styles.orangeline}></div>
                 <h3 className={styles.normalHeading}> About Us </h3>
                 <div className={styles.fullscreencontainer}>
-                    <div className={styles.fullscreencontent}>
+                    <div className={styles.fullscreencontent1}>
                         <h1><u>VISION</u></h1><br/><br/>
                         <h4> At INDIBUS, we envision a future where businesses thrive in the digital landscape with unparalleled success. Our company stands as a beacon of innovation and expertise, leading the way in the realm of digital business solutions. As the trusted partner of choice for businesses worldwide, INDIBUS is committed to delivering excellence in content creation, digital marketing, website development, and digital advertising. Our vision is to empower businesses with the tools and strategies they need to not only survive but to excel in the ever-evolving digital ecosystem.
                         
@@ -27,7 +27,7 @@ export default function aboutIndibus(){
                         <br/>  <br/>Our vision for digital advertising is to make it not just an expense, but a revenue-generating investment. We foresee a future where INDIBUS helps businesses craft compelling digital advertising campaigns that engage, inspire, and convert. Our commitment to this vision is to drive digital advertising ROI to new heights, making every advertising dollar count. </h4>
                     
                     </div>
-                    <div className={styles.fullscreencontent}>
+                    <div className={styles.fullscreencontent2}>
                         <h1><u>MISSION</u></h1><br/><br/>
                         <h4>At INDIBUS, we are committed to revolutionizing the digital landscape by providing innovative and comprehensive business solutions to our clients. As a dynamic and forward-thinking company, our mission is to empower businesses with the tools and strategies needed to thrive in the digital age. Our primary focus lies in content creation, digital marketing, website development, and digital advertising.
 

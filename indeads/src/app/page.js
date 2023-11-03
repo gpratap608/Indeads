@@ -93,7 +93,7 @@ export default function Home() {
 
                     <div className="card text-bg-light mb-3 mx-2" style={{ maxWidth: '18rem' }}>
                     <img
-                        src = '/imageicon.jpg'
+                        src = 'https://media.licdn.com/dms/image/C4E03AQHVktHiR4fmIA/profile-displayphoto-shrink_800_800/0/1598531453310?e=1704326400&v=beta&t=NStBcJ3xxsV0NLER7-QRtRiSESCFeIvayqvAuOIi_1E'
                         height='50'
                         width='50'
                         alt='Image'
@@ -146,7 +146,7 @@ export default function Home() {
 
                     <div className="card text-bg-light mb-3 mx-2" style={{ maxWidth: '18rem' }}>
                     <img
-                        src = '/imageicon.jpg'
+                        src = 'https://media.licdn.com/dms/image/C5603AQEQPiHxrYGrLg/profile-displayphoto-shrink_800_800/0/1556599060779?e=1704326400&v=beta&t=VZqUuA6ZNVi7kLK8Mq7OV2dFIvU2XzwlazOT4GN_-4I'
                         height='50'
                         width='50'
                         alt='Image'
