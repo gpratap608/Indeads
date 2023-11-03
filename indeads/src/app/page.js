@@ -22,17 +22,21 @@ export default function Home() {
                     </div>
               </div>
         </div>
-        <div className={styles.stickcontainer}>
-            <Image
-                src='/group.png'
-                height='300'
-                width='180'
-                alt='Image'
-            />
-            <div className={styles.openpara}>
-                <h4> Know more About US </h4>
-                <button onClick={()=>router.push("/aboutIndiabus")} className={styles.roundbutton} > <b>About Us</b> </button>
-            </div>
+        </div>
+        <div>
+        <div className={styles.homecontent}>
+          <div className={styles.stickcontainer1}>
+              <Image
+                  src='/group.png'
+                  height='300'
+                  width='180'
+                  alt='Image'
+              />
+              <div className={styles.openpara}>
+                  <h4> Get personalized post advertisement </h4>
+                  <button onClick={()=>router.push("/contact")} className={styles.roundbutton} > <b>Contact Us</b> </button>
+              </div>
+          </div>
         </div>
         </div>
 
@@ -73,9 +77,9 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.generalbox}>
+          <div className={styles.generalboxcontent}><Link href='aboutIndiabus' className={styles.normalHeading}>About Us</Link></div>
           <div className={styles.generalboxcontent}><Link href='aboutIndiads' className={styles.normalHeading}>InDiAds</Link></div>
           <div className={styles.generalboxcontent}><Link href='Indilearn' className={styles.normalHeading}>InDiLearn</Link></div>
-          
         </div>
 
         <h3 className={styles.normalHeading}>What Our Clients Say</h3>

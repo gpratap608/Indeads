@@ -101,7 +101,7 @@ export default function aboutIndiads() {
                 alt='Image'
             />
             <div className={styles.openpara}>
-                <h4> Get personalized post advertisement </h4>
+                <h4> Get personalized post advertisement </h4> 
                 <button onClick={()=>router.push("/contact")} className={styles.roundbutton} > <b>Contact Us</b> </button>
             </div>
         </div>
