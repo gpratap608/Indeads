@@ -525,8 +525,8 @@
   background-color:  #ffffff;
   /* height: 14rem; */
   padding: 0.5rem;
-  width: 70%;
-  height:60rem;
+  width: 80%;
+  height: fit-content;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -539,8 +539,8 @@
   background-color:  #ffffff;
   /* height: 14rem; */
   padding: 0.5rem;
-  width: 70%;
-  height:90rem;
+  width: 80%;
+  height:fit-content;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
