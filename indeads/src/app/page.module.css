@@ -572,3 +572,22 @@
     
   }
 }
+
+.teamContainer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text{
+  color:#f9f9f9;
+}
+.addressContainer{
+  background-color: #00cb51;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}

@@ -70,7 +70,7 @@ export default function aboutIndibus(){
                     </div>
                 </div>
     
-            <div>
+            <div className={styles.teamContainer}>
                 <h3 className={styles.normalHeading}> Our Team </h3>
                 <div className={styles.teamcontainer}>
                     <div className={styles.teamcontent}>

@@ -39,9 +39,15 @@ export default function Business(){
                 <textarea type="text" name="message" placeholder="Your message"className={styles.contactText}></textarea>
                 
                 <input type="submit" className={styles.contactBtn} value="Send" />
+                
             </form>
-
+            <div className={styles.addressContainer}>
+                <h1 className={styles.text}>Our Workplace</h1> 
+                <p className={styles.text}> Office of INDIBUS</p>
+                <p className={styles.text}> 1st Floor, B-Block, Incubation Cell, ABES Institute of technology, Ghazibad</p>
             </div>
+            </div>
+            
 
 
         </main>
