@@ -504,16 +504,18 @@
   margin-top: 1rem;
 }
 .fullscreencontent{
-  background-color: #ffffff;
+  background-image: linear-gradient(to bottom right, #ff8200, #ffffff , #00cb51);
   /* height: 14rem; */
   padding: 0.5rem;
-  width: 100%;
+  width: 70%;
+  height:8rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   margin: 2rem;
   flex-wrap: wrap;
+  border-radius: 20px 20px 20px 20px;
 }
 .teamcontainer{
   display: flex;
@@ -594,4 +596,14 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+}
+.buttonServices{
+  width:50%;
+  align-self: center;
+  background-color: #ff8200;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px 20px 20px 20px;
 }
