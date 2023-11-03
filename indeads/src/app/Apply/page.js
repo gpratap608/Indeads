@@ -33,6 +33,7 @@ export default function Business(){
                 <input  type="text" name="user_name" placeholder="Name" className={styles.contactInput}></input>
                 
                 <input  type="text" name="user_email" placeholder="Email"className={styles.contactInput}></input>
+                <input  type="number" name="user_number" placeholder="Phone Number"className={styles.contactInput}></input>
     
                 <input type="text"  name="subject" placeholder="Applying for?"className={styles.contactInput}></input>
             
