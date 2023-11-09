@@ -18,7 +18,7 @@ const Corouselindi = () => {
       <Link href='/Apply'>
         <Image
           className="d-block w-100 image" 
-          src={`/Hiring.jpg`}
+          src={`/Dhanteras.jpg`}
           alt="First slide"
           height='300'
           width='150'
@@ -33,7 +33,7 @@ const Corouselindi = () => {
         
         <Image
           className="d-block w-100 image"
-          src={`/imageicon.jpg`}
+          src={`/Hiring.jpg`}
           alt="Second slide"
           height='300'
           width='150'
