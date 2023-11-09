@@ -15,7 +15,7 @@ const Corouselindi = () => {
   return (
     <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
-      <Link href='/Apply'>
+      
         <Image
           className="d-block w-100 image" 
           src={`/Dhanteras.jpg`}
@@ -23,14 +23,14 @@ const Corouselindi = () => {
           height='300'
           width='150'
         />
-      </Link>
+      
         <Carousel.Caption>
           <h3></h3>
           <p></p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        
+      <Link href='/Apply'>  
         <Image
           className="d-block w-100 image"
           src={`/Hiring.jpg`}
@@ -38,7 +38,7 @@ const Corouselindi = () => {
           height='300'
           width='150'
         />
-        
+      </Link>  
 
         <Carousel.Caption>
           <h3></h3>
