@@ -18,7 +18,7 @@ const Corouselindi = () => {
       
         <Image
           className="d-block w-100 image" 
-          src={`/Dhanteras.jpg`}
+          src={`/Diwali.jpg`}
           alt="First slide"
           height='300'
           width='150'
