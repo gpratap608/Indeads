@@ -14,21 +14,21 @@ const Corouselindi = () => {
 
   return (
     <Carousel activeIndex={index} onSelect={handleSelect}>
-      // <Carousel.Item>
+    {/* <Carousel.Item>
       
-      //   <Image
-      //     className="d-block w-100 image" 
-      //     src={`/Diwali.jpg`}
-      //     alt="First slide"
-      //     height='300'
-      //     width='150'
-      //   />
+         <Image
+           className="d-block w-100 image" 
+           src={`/Diwali.jpg`}
+           alt="First slide"
+           height='300'
+           width='150'
+         />
       
-      //   <Carousel.Caption>
-      //     <h3></h3>
-      //     <p></p>
-      //   </Carousel.Caption>
-      // </Carousel.Item>
+         <Carousel.Caption>
+           <h3></h3>
+           <p></p>
+         </Carousel.Caption>
+       </Carousel.Item>*/}
       <Carousel.Item>
       <Link href='/Apply'>  
         <Image
