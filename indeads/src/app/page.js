@@ -22,8 +22,8 @@ export default function Home() {
                     </div>
               </div>
         </div>
-        </div>
-        <div>
+        {/* </div> */}
+        {/* <div>
         <div className={styles.homecontent}>
           <div className={styles.stickcontainer1}>
               <Image
@@ -38,7 +38,7 @@ export default function Home() {
               </div>
           </div>
         </div>
-        </div>
+        </div> */}
 
         <h3 className={styles.normalHeading}> Our Exciting Service Offerings </h3>
 
@@ -75,6 +75,7 @@ export default function Home() {
               alt='Image'
             /> 
           </div>
+        </div>
         </div>
         <div className={styles.generalbox}>
           <div className={styles.generalboxcontent}><Link href='aboutIndiabus' className={styles.normalHeading}>About Us</Link></div>
