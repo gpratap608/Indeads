@@ -20,7 +20,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <div className='Container'>  
+        
             <div className='nav'>
+             {/*  <img 
+              src='/indiads.png'
+              height='50'
+              />  */}
                 <Link href="/" className='link'><h2 className='in'>In</h2><h2 className='di'>Di</h2><h2 className='bus'>Bus</h2></Link>
                 <div className='li'><Navbar/></div>
                 

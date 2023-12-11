@@ -32,11 +32,11 @@ const Corouselindi = () => {
       <Carousel.Item>
       <Link href='/Apply'>  
         <Image
-          className="d-block w-100 image"
+          className="d-block w-800 image"
           src={`/Hiring.jpg`}
           alt="Second slide"
-          height='300'
-          width='150'
+          height='500'
+          width='1000'
         />
       </Link>  
 
@@ -47,11 +47,11 @@ const Corouselindi = () => {
       </Carousel.Item>
       <Carousel.Item>
         <Image
-          className="d-block w-100"
+          className="d-block w-800"
           src={`/imageicon.jpg`}
           alt="Third slide"
-          height='300'
-          width='150'
+          height='500'
+          width='1000'
         />
 
         <Carousel.Caption>

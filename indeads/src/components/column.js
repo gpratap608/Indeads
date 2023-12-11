@@ -12,9 +12,7 @@ export default function Column(){
                     <div className='flexContent' ><Link href='/aboutIndiads' className='pagelink'> InDiAds </Link></div>
                     <div className='flexContent' ><Link href='/Indilearn' className='pagelink'> InDiLearn </Link></div>
                     
-                    
-          
-
+            
                 </div>
             </div>
 }
