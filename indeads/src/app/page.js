@@ -15,15 +15,31 @@ export default function Home() {
   return (
     <main className={styles.main}>
 
-      <div className={styles.upper}>
-        <div className={styles.flexContainerimage}>
-          <div className={styles.flexContentimage}>
-            <div className={styles.Image}>
-              <Corouselindi />
-            </div>
-
+        <div className={styles.upper}>
+          <div className={styles.flexContainerimage}>
+              <div className={styles.flexContentimage}>
+                    <div className={styles.Image}>
+                      <Corouselindi/>  
+                    </div>
+              </div>
+        </div>
+        {/* </div> */}
+        {/* <div>
+        <div className={styles.homecontent}>
+          <div className={styles.stickcontainer1}>
+              <Image
+                  src='/group.png'
+                  height='300'
+                  width='180'
+                  alt='Image'
+              />
+              <div className={styles.openpara}>
+                  <h4> Get personalized post advertisement </h4>
+                  <button onClick={()=>router.push("/contact")} className={styles.roundbutton} > <b>Contact Us</b> </button>
+              </div>
           </div>
         </div>
+        </div> */}
 
 
         <h3>Our Excited Services Offerings</h3>
@@ -87,45 +103,10 @@ export default function Home() {
               </div>
           </div>
         </div>
-        </div> */}
 
-      {/*  <h3 className={styles.normalHeading}> Our Exciting Service Offerings </h3>
+        </div>
+        <div className={styles.generalbox}>
 
-      <div className={styles.fleximageContainer}>
-        <div className={styles.fleximage}>
-          <Image
-            src='/advertising.png'
-            height='100'
-            width='170'
-            alt='Image'
-          />
-        </div>
-        <div className={styles.fleximage}>
-          <Image
-            src='/video.png'
-            height='100'
-            width='170'
-            alt='Image'
-          />
-        </div>
-        <div className={styles.fleximage}>
-          <Image
-            src='/content.jpg'
-            height='100'
-            width='170'
-            alt='Image'
-          />
-        </div>
-        <div className={styles.fleximage}>
-          <Image
-            src='/listing.png'
-            height='100'
-            width='170'
-            alt='Image'
-          />
-        </div>
-      </div> */}
-      {/* <div className={styles.generalbox}>
           <div className={styles.generalboxcontent}><Link href='aboutIndiabus' className={styles.normalHeading}>About Us</Link></div>
           <div className={styles.generalboxcontent}><Link href='aboutIndiads' className={styles.normalHeading}>InDiAds</Link></div>
           <div className={styles.generalboxcontent}><Link href='Indilearn' className={styles.normalHeading}>InDiLearn</Link></div>
