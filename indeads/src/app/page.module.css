@@ -16,6 +16,8 @@
   background-color: #f9f9f9; /* Specify your desired background color */
 }
 .flexContainerimage{
+  margin: 4rem;
+  margin-top: 2rem;
   display: flex;
   background-color: #000;
   flex-direction: row;
@@ -256,7 +258,7 @@
 .upper{
   height: fit-content;
   width: 100%;
-  background-color: #ff8200;
+  background: linear-gradient(to top, black, rgb(88, 55, 55), white);
   margin-top: 1rem;
   padding: 1rem;
   padding-top: 3rem;
@@ -345,10 +347,10 @@
 }
 
 .normalHeading{
-  font-family: the seasons ;
+  font-family: Hammersmith One;
   color: #ffffff;
-  margin-top: 1rem;
-  margin-left: 0.5rem;
+  margin-bottom: 2rem;
+  margin-left: 4rem;
   font-size: 2em;
   font-weight: 20;
   text-decoration: none;
@@ -365,11 +367,11 @@
 }
 .fleximageContainer{
   justify-content: center;
-  margin: 1rem;
-  display: grid;
+  margin: 4rem;
+  display: inline-flex;
   grid-template-columns: max-content max-content;
   grid-template-rows: max-content;
-  grid-gap:1rem;
+  grid-gap:2rem;
 }
 .heightimage{
   height: 20rem;
