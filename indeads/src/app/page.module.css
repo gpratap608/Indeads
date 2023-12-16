@@ -1,95 +1,95 @@
 .fullscreen {
-    background-color: #0E656A;
-    margin-top: 5rem;
+  background-color: #0E656A;
+  margin-top: 5rem;
 }
 
 .fullscreen .normalHeading {
-    display: flex;
-    justify-content: center;
-    color: #fff;
-    font-size: 4rem;
-    font-weight: 400;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 400;
 }
 
 .fullscreen hr {
-    width: 18%;
-    margin: auto;
+  width: 18%;
+  margin: auto;
 }
 
 .fullscreencontainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
 }
 
 .fullscreencontainer img {
-    object-fit: cover;
-    border-radius: 2rem;
+  object-fit: cover;
+  border-radius: 2rem;
 }
 
 .fullscreencontent {
-    width: 44%;
-    margin-right: 5rem;
-    
+  width: 44%;
+  margin-right: 5rem;
+  
 }
 
 .fullscreencontent h1 {
-    color: #fff;
-    font-size: 3rem;
-    font-weight: 400;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 400;
 }
 
 .fullscreencontent p {
-    color: #fff;
-    font-size: 1.3rem;
-    font-weight: 400;
-    margin-top: 1.3rem;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-top: 1.3rem;
 }
 
 .fullscreencontent2 {
-    width: 44%;
-    margin-left: 5rem;
+  width: 44%;
+  margin-left: 5rem;
 }
 
 .fullscreencontent2 h1 {
-    color: #fff;
-    font-size: 3rem;
-    font-weight: 400;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 400;
 }
 
 .fullscreencontent2 p {
-    color: #fff;
-    font-size: 1.3rem;
-    font-weight: 400;
-    margin-top: 1.3rem;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-top: 1.3rem;
 }
 
 .fullscreencontainer3 {
-    background-color: #0b4245;
-    width: 95%;
-    margin: auto;
-    border-radius: 1rem;
-    margin-top: 2rem;
+  background-color: #0b4245;
+  width: 95%;
+  margin: auto;
+  border-radius: 1rem;
+  margin-top: 2rem;
 }
 
 .fullscreencontent3 {
-    display: flex;
-    justify-content: center;
-    gap: 2.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
 }
 
 .fullscreencontent31 img {
-    margin-top: 2.2rem;
-    padding-bottom: .4rem;
+  margin-top: 2.2rem;
+  padding-bottom: .4rem;
 }
 
 .fullscreencontent32 img {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 .fullscreencontent32 hr {
-    width: 100%;
-    color: #fff;
-    margin-top: .4rem;
+  width: 100%;
+  color: #fff;
+  margin-top: .4rem;
 }
