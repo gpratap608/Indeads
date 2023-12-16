@@ -2,8 +2,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Link from 'next/link'
-import Footer from '@/components/footer'
-import Navbar from '@/components/Navbar'
+
 import Authprovider from '@/components/AuthProvider/Authproviders'
 import NextTopLoader from 'nextjs-toploader'
 
@@ -22,24 +21,9 @@ export default function RootLayout({ children }) {
         <div className='Container'>  
         
             <div className='nav'>
-             {/*  <img 
-              src='/indiads.png'
-              height='50'
-              />  */}
-                <Link href="/" className='link'><h2 className='in'>In</h2><h2 className='di'>Di</h2><h2 className='bus'>Bus</h2></Link>
-                <div className='li'><Navbar/></div>
-                
             
             </div>
        
-            
-            <div className='item mainbody'>
-              <NextTopLoader />
-
-              <Authprovider>{children}</Authprovider>
-            </div>
-          
-            <div className='item Footer'> <Footer/> </div>
         </div>
       
       </body>
