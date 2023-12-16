@@ -6,6 +6,7 @@ import Link from 'next/link'
 import Authprovider from '@/components/AuthProvider/Authproviders'
 import NextTopLoader from 'nextjs-toploader'
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -20,7 +21,7 @@ export default function RootLayout({ children }) {
         <div className='Container'>  
         
             <div className='nav'>
-             
+            
             </div>
        
         </div>
