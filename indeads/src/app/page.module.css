@@ -8,6 +8,11 @@
   height: 40rem;
   width: 100%;
 }
+@media (max-width:790px){
+  .maintainance{
+    height: 60rem;
+  }
+}
 .head{
   color: beige;
   font-size: 2rem;
