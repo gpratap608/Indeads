@@ -2,13 +2,15 @@
   background-image: url("../../public/maintenance.jpg");
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 150vh;
+  height: 40rem;
+  width: 100%;
 }
 .head{
   color: beige;
-  font-size: 5rem;
+  font-size: 2rem;
   backdrop-filter: blur(8px);
   border-radius: 12px;
   border: 1px solid #f1f1f1; 
