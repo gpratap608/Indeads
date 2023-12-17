@@ -24,27 +24,9 @@ export default function Business(){
       };
 
     return(
-        <main className={styles.main}>
-            <div className={styles.contactBox}>
-            <div className={styles.orangeline}></div>    
-            <h2 className={styles.normalHeading}> Apply Here!!! </h2>
-            <form ref={form} onSubmit={sendEmail} className={styles.contactForm}>
-        
-                <input  type="text" name="user_name" placeholder="Name" className={styles.contactInput}></input>
-                
-                <input  type="text" name="user_email" placeholder="Email"className={styles.contactInput}></input>
-                <input  type="number" name="user_number" placeholder="Phone Number"className={styles.contactInput}></input>
-    
-                <input type="text"  name="subject" placeholder="Applying for?"className={styles.contactInput}></input>
+        <div>
             
-                <textarea type="text" name="message" placeholder="Your Description!"className={styles.contactText}></textarea>
-                
-                <input type="submit" className={styles.contactBtn} value="Apply now" />
-            </form>
 
-            </div>
-
-
-        </main>
+        </div>
     )
 }

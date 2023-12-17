@@ -16,15 +16,6 @@ export default function signinoption(){
     }
     
     return (
-    <main className={styles.main}>
-        <div className={styles.signupsetup}>
-        <div className={styles.orangeline}></div>
-          <div className={styles.signin}>   
-          <button className={styles.googlesignupButton} onClick={()=>signIn("google")} ><FcGoogle/>  Sign In With Google</button>
-          <p> OR </p>
-          <button className={styles.signupButton} onClick={()=>router.push("/signup")} >SignUp with Credentials</button>
-          </div>  
-        </div>
-    </main>
+    <div></div>
     )
 }

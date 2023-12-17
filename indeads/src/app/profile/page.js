@@ -34,17 +34,8 @@ export default  function  Userinfo(){
     }
     
     return( 
-    <main className={styles.main}>
-        <div className={styles.signupsetup}>
-        <div className={styles.orangeline}></div>
-        <div className={styles.contactForm}>
-            <h1 className={styles.normalHeading}> Dashboard </h1>
-            <p className={styles.signupPageInput}> {data} </p> 
-            <p className={styles.signupPageInput}> {email}  </p> 
-            <button onClick={logout} className={styles.signupButton}> LogOUT </button>
-            <button onClick={getUserDetails} className={styles.signupButton}> Get Detailes </button>
-        </div>
-        </div>
-    </main>
+    <div>
+       
+    </div>
     )
 }

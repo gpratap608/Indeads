@@ -1,15 +1,10 @@
 "use client";
-
+import Maintenance from '@/components/Maintainance';
 import React from 'react';
-
-
-
-
 export default function Home() {
-  
   return (
-    <main className={styles.main}>
-
+    <main>
+      <Maintenance/>
     </main>
   )
 }
