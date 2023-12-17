@@ -2,10 +2,9 @@
   background-image: url("../../public/maintenance.jpg");
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 150vh;
 }
 .head{
   color: beige;
@@ -14,4 +13,5 @@
   border-radius: 12px;
   border: 1px solid #f1f1f1; 
   padding: 1rem;
+  width: 100%;
 }
