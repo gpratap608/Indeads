@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 import Authprovider from '@/components/AuthProvider/Authproviders'
 import NextTopLoader from 'nextjs-toploader'
-import service from './serve/page'
+
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
        {children}
-       <service/>
+      
       </body>
     </html>
   )
