@@ -1,27 +1,3 @@
-.maintainance{
-  background-image: url("../../public/maintenance.jpg");
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  height: 40rem;
-  width: 100%;
-}
-@media (max-width:790px){
-  .maintainance{
-    height: 60rem;
-  }
-}
-.head{
-  color: beige;
-  font-size: 2rem;
-  backdrop-filter: blur(8px);
-  border-radius: 12px;
-  border: 1px solid #f1f1f1; 
-  padding: 1rem;
-  width: 100%;
-}
 .fullscreen {
   background-color: #0E656A;
   margin-top: 5rem;
@@ -116,4 +92,121 @@
   width: 100%;
   color: #fff;
   margin-top: .4rem;
+}
+
+.upper {
+  height: fit-content;
+  width: 100%;
+  background: linear-gradient(to top, black, rgb(88, 55, 55), white);
+  margin-top: 1rem;
+  padding: 1rem;
+  padding-top: 3rem;
+}
+@media only screen and (max-width:800px){
+  .upper{
+    padding: 0rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.flexContainerimage{
+  margin: 4rem;
+  margin-top: 2rem;
+  display: flex;
+  /*  background-color: #000; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+@media only screen and (max-width:800px) {
+  .flexContainerimage {
+    left: 0;
+    width: 100%;
+  }
+}
+
+@media(max-width:800px) {
+  .flexContainerimage {
+    flex-direction: column;
+  }
+}
+
+@media(max-width:800px) {
+  .flexContainerimage {
+    flex-direction: column;
+  }
+}
+
+.flexContentimage {
+  display: flex;
+  margin: 1rem;
+  align-content: center;
+  justify-content: space-evenly;
+  color: #000;
+  align-items: center;
+}
+
+@media only screen and (max-width:800px){
+  .fleximageContainer{
+  justify-content: center;
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-template-rows: max-content;
+  grid-gap:1rem;
+  display: flex;
+  justify-content: center;
+  gap:12rem;
+  margin: 2rem;
+  }
+
+}
+
+.fleximageContainer img {
+  border-radius: 1rem;
+}
+
+.fleximageContainer{
+  justify-content: space-between;
+  margin-inline: 4rem;
+  margin: 4rem;
+  display: inline-flex;
+  grid-template-columns: max-content max-content;
+  grid-template-rows: max-content;
+  grid-gap:10rem;
+  padding-left: 4rem;
+  align-items: center;
+}
+
+.circlebutton {
+  height: '50';
+  border-radius: 20%;
+  background-color: white;
+  padding: 2rem;
+}
+
+.revcontainer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.revcontentbox{
+  grid-column: 1;
+  height: fit-content;
+  padding: 2rem;
+  background-color: white;
+}
+
+.revheader {
+  background-color: red;
+  color: #fff;
+}
+
+.revcontent {
+  background-color: #fff;
+  color: #fff;
 }
