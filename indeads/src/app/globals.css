@@ -1,4 +1,250 @@
 *{
     margin: 0;
     padding: 0;
+    
+}
+
+.head {
+  color: white;
+  padding: 4rem;
+  margin-left: 4rem;
+}
+
+/* for navbar */
+
+  .nav {
+
+    background-color: black;
+
+  }
+
+  .navcontainer {
+    max-width: 80rem; /* Equivalent to max-w-7xl */
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1.5rem; /* Equivalent to px-4 for sm screens */
+    padding-left: 1.5rem; /* Equivalent to px-4 for sm screens */
+  
+  }
+  
+  .navcontent {
+    display: flex; /* Equivalent to flex */
+    align-items: center; /* Equivalent to items-center */
+    justify-content: space-between; /* Equivalent to justify-between */
+    height: 4rem; /* Equivalent to h-16 */
+  }
+  
+  .navcontent1 {
+    display: flex; /* Equivalent to flex */
+    align-items: center; /* Equivalent to items-center */
+    color: white;
+  }
+  
+  .logo{
+    flex-shrink: 0;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .navcomp {
+    display: none;
+    margin-left: 1rem; /* Equivalent to ml-4 */
+    display: flex; /* Equivalent to flex */
+    align-items: center; /* Equivalent to items-center */
+    gap: 1rem; /* Equivalent to space-x-4 */
+  }
+
+  .navbutton {
+    color: #fff; /* Equivalent to text-white */
+    background-color: transparent; /* Default background color */
+    padding: 0.5rem 1rem; /* Equivalent to p-2 */
+    border-radius: 0.25rem; /* Equivalent to rounded-lg */
+    transition: background-color 0.3s, color 0.3s; /* Transition for hover effects */
+    display: block;
+    text-decoration: none;
+  }
+
+  /* for navbar */
+  
+.contentcontainer {
+  margin-top: 0.5rem;
+  width: 100%;
+  
+
+}
+
+.contentimg1 {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(5, 1fr);
+}
+.contentimg1left {
+  grid-row: 1/5;
+  grid-column: 1/3;
+}
+
+.contentimg1right {
+  grid-row: 1/5;
+  grid-column: 3/6;
+}
+
+.bodyimg {
+  width: 100%;
+  display: block;
+}
+
+.contenttxtleft {
+  background-color: white;
+  grid-row: 2/4;
+  grid-column: 1/4;
+  z-index: 1;
+}
+
+.contenttxt1right {
+  font-family: Hammersmith One;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 3rem;
+
+}
+
+.contenttxt {
+  background-color: white;
+  grid-row: 2/4;
+  grid-column: 3/6;
+  z-index: 1;
+}
+
+.contenttxt1 {
+  font-family: Hammersmith One;
+  margin-left: 3rem;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 3rem;
+}
+
+.contenttxt2 {
+  font-family: Hammersmith One;
+  margin-left: 3rem;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 3rem;
+}
+
+.contenttxtheading{
+  font-family: Hammersmith One;
+  margin-left: 3rem;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.clientcontainer {
+  background-color: black;
+}
+.clientheading {
+  font-family: Hammersmith One;
+  font-size: 3rem;
+  color: white;
+  margin: 0.5rem;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.Footer {
+  grid-column: 1/span 3;
+  grid-row: 3/span 1;
+  background-color: #000;
+  bottom: 0;
+}
+
+.feedfooter {
+  padding-top: 0.5rem;
+  color: white;
+  margin-left: 3rem;
+
+}
+
+.feedfooter button {
+  margin-left: 10rem;
+  margin-top: .5rem;
+}
+
+.footerflex {
+  margin-right: 5rem;
+  justify-content: end;
+}
+
+.flexfooter {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: flex-start;
+
+}
+
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+
+}
+
+.flexContent {
+  margin: 1rem;
+}
+
+.footerflex {
+  margin-right: 5rem;
+  justify-content: end;
+}
+
+.link {
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-self: center;
+  justify-self: center;
+  margin: 0.5rem;
+  color: #ffffff;
+}
+
+.in {
+  color: #ff8200;
+}
+
+.di {
+  color: #ffffff;
+}
+
+.bus {
+  color: #00cb51;
+}
+
+.footerDiv{
+  margin-top: 0.5rem;
+  background-color: black;
+}
+
+.ul {
+  list-style: none;
+}
+
+.a {
+  text-decoration: none;
 }
