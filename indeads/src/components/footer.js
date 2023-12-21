@@ -30,9 +30,9 @@ export default function Footer() {
         </div>
 
         <div className='footerflex link'>
-          <h3 class="in">In</h3>
-          <h3 class="di">Di</h3>
-          <h3 class="bus">Bus</h3>
+          <h3 className="in">In</h3>
+          <h3 className="di">Di</h3>
+          <h3 className="bus">Bus</h3>
           <h3>{year}</h3>
         </div>
 

@@ -10,60 +10,64 @@
   margin-left: 4rem;
 }
 
+.Container {
+  display: grid;
+  grid-template-columns: 0 100% 0;
+  grid-template-rows: 2rem max-content fit-content;
+  /* row-gap: 2rem;
+  column-gap: 1rem; */
+}
+
+@media (max-width:800px) {
+  .Container {
+    grid-template-columns: 100%;
+    grid-template-rows: 3rem 0.01rem max-content max-content;
+  }
+}
+
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+
+}
+
+
+
+@media(max-width:800px) {
+  .flexContainer {
+    flex-direction: row;
+  }
+
+
+}
+
 /* for navbar */
 
-  .nav {
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+}
 
-    background-color: black;
+ul {
+  flex: 1;
+  list-style: none;
+  text-align: center;
+  color: #fff;
+}
 
-  }
+ul li {
+  display: inline;
+  margin: 1rem 0.5rem;
+  font-size: 1rem;
+}
 
-  .navcontainer {
-    max-width: 80rem; /* Equivalent to max-w-7xl */
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 1.5rem; /* Equivalent to px-4 for sm screens */
-    padding-left: 1.5rem; /* Equivalent to px-4 for sm screens */
   
-  }
-  
-  .navcontent {
-    display: flex; /* Equivalent to flex */
-    align-items: center; /* Equivalent to items-center */
-    justify-content: space-between; /* Equivalent to justify-between */
-    height: 4rem; /* Equivalent to h-16 */
-  }
-  
-  .navcontent1 {
-    display: flex; /* Equivalent to flex */
-    align-items: center; /* Equivalent to items-center */
-    color: white;
-  }
-  
-  .logo{
-    flex-shrink: 0;
-    text-decoration: none;
-    color: inherit;
-  }
-
-  .navcomp {
-    display: none;
-    margin-left: 1rem; /* Equivalent to ml-4 */
-    display: flex; /* Equivalent to flex */
-    align-items: center; /* Equivalent to items-center */
-    gap: 1rem; /* Equivalent to space-x-4 */
-  }
-
-  .navbutton {
-    color: #fff; /* Equivalent to text-white */
-    background-color: transparent; /* Default background color */
-    padding: 0.5rem 1rem; /* Equivalent to p-2 */
-    border-radius: 0.25rem; /* Equivalent to rounded-lg */
-    transition: background-color 0.3s, color 0.3s; /* Transition for hover effects */
-    display: block;
-    text-decoration: none;
-  }
-
   /* for navbar */
   
 .contentcontainer {
@@ -247,4 +251,10 @@
 
 .a {
   text-decoration: none;
+}
+
+@media(max-width:800px) {
+  .flexContainer {
+    flex-direction: row;
+  }
 }
