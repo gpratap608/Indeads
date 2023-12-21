@@ -10,9 +10,13 @@ export default function Navbar() {
 
   return (
     <div className='navbar' >
+      {/* <div className='navlogo'>
+        <img
+        src=''
+        alt='IndiBus'/>
+      </div> */}
 
-      <img src="" alt="Logo" className='logo'/>
-      <ul>
+      <ul className='navmenu'>
         <li>Home</li>
         <li>Content</li>
         <li>Services</li>
