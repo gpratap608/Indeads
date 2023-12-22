@@ -66,8 +66,8 @@ export default function Home() {
         </div>
       </div>
       <Bodycontent/>
-      {/* <Reviews/> */}
-{/* <Footer/>*/
+      {/* <Reviews/> 
+<Footer/>*/
       <Maintenance/>
     </main>
   )
