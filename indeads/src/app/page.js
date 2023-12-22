@@ -10,11 +10,8 @@ import Maintenance from '@/components/footer';
 
 
 export default function Home() {
-  const router = useRouter();
-  return (
-    <main className={styles.main}>
-      <Maintenance/>
-    </main>
+  return(
+    <Maintenance/>
   )
 }
 
