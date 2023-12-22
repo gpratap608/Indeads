@@ -2,7 +2,6 @@
 import { SocialIcon } from 'react-social-icons'
 import Link from 'next/link'
 import React from 'react'
-import "../app/globals.css"
 
 export default function Footer() {
   const date = new Date
