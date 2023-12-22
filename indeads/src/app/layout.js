@@ -22,13 +22,11 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <div className='Container'>  
         
-    
-
-            <div className='item mainbody'>
+  
               <NextTopLoader />
 
               <Authprovider>{children}</Authprovider>
-            </div>
+            
           
           
        
