@@ -11,14 +11,14 @@ import { useRouter } from "next/navigation"
 import Bodycontent from '@/components/bodycontent';
 import { Reviews } from '@/components/reviews';
 import Footer from '@/components/footer';
-
+import Maintenance from '@/components/footer';
 
 
 export default function Home() {
   const router = useRouter();
   return (
     <main className={styles.main}>
-        <div className={styles.upper}>
+        /*<div className={styles.upper}>
           <div className={styles.flexContainerimage}>
               <div className={styles.flexContentimage}>
                     <div className={styles.Image}>
@@ -67,8 +67,8 @@ export default function Home() {
       </div>
       <Bodycontent/>
       {/* <Reviews/> */}
-      <Footer/>
-      
+{/* <Footer/>*/
+      <Maintenance/>
     </main>
   )
 }
