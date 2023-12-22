@@ -2,8 +2,6 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Link from 'next/link'
-import Navbar from '@/components/Navbar'
-import Footer from '@/components/footer'
 
 import Authprovider from '@/components/AuthProvider/Authproviders'
 import NextTopLoader from 'nextjs-toploader'
