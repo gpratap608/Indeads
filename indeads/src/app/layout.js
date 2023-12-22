@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className='Container'>  
+          
         
   
               <NextTopLoader />
@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
           
           
        
-        </div>
+        
       
       </body>
     </html>
